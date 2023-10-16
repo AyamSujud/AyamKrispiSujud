@@ -1,0 +1,49 @@
+.navbar{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 22px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav ul{
+    margin: 0 -8px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li a .logo-nav-img{
+    height: 17px;
+}
+
+.nav ul li a .search-nav-img{
+    height: 15px;
+}
+
+.nav ul li a .bag-nav-img{
+    height: 16px;
+}
